@@ -16,6 +16,13 @@
 		0FC6F0791F2AE11300A27E0A /* PKRU_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6F0781F2AE11300A27E0A /* PKRU_ServiceUITests.swift */; };
 		0FC6F0871F2AE2CD00A27E0A /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0861F2AE2CD00A27E0A /* logo_40pkru.png */; };
 		0FC6F0891F2AE48600A27E0A /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0881F2AE48600A27E0A /* bg_pkru.png */; };
+		0FC6F08D1F2AF36900A27E0A /* ic_exit_to_app_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F08A1F2AF36900A27E0A /* ic_exit_to_app_2x.png */; };
+		0FC6F08E1F2AF36900A27E0A /* ic_exit_to_app_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F08B1F2AF36900A27E0A /* ic_exit_to_app_3x.png */; };
+		0FC6F08F1F2AF36900A27E0A /* ic_exit_to_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F08C1F2AF36900A27E0A /* ic_exit_to_app.png */; };
+		0FC6F0931F2AF44300A27E0A /* ic_group_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0901F2AF44300A27E0A /* ic_group_add_2x.png */; };
+		0FC6F0941F2AF44300A27E0A /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0911F2AF44300A27E0A /* ic_group_add_3x.png */; };
+		0FC6F0951F2AF44300A27E0A /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0921F2AF44300A27E0A /* ic_group_add.png */; };
+		0FC6F0971F2AF57600A27E0A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6F0961F2AF57600A27E0A /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		0FC6F07A1F2AE11300A27E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FC6F0861F2AE2CD00A27E0A /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Desktop/logo_40pkru.png; sourceTree = "<group>"; };
 		0FC6F0881F2AE48600A27E0A /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../../Desktop/bg_pkru.png; sourceTree = "<group>"; };
+		0FC6F08A1F2AF36900A27E0A /* ic_exit_to_app_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_2x.png; path = ../../../../Downloads/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_2x.png; sourceTree = "<group>"; };
+		0FC6F08B1F2AF36900A27E0A /* ic_exit_to_app_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_3x.png; path = ../../../../Downloads/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_3x.png; sourceTree = "<group>"; };
+		0FC6F08C1F2AF36900A27E0A /* ic_exit_to_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app.png; path = ../../../../Downloads/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app.png; sourceTree = "<group>"; };
+		0FC6F0901F2AF44300A27E0A /* ic_group_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_2x.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_2x.png; sourceTree = "<group>"; };
+		0FC6F0911F2AF44300A27E0A /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_3x.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_3x.png; sourceTree = "<group>"; };
+		0FC6F0921F2AF44300A27E0A /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add.png; sourceTree = "<group>"; };
+		0FC6F0961F2AF57600A27E0A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +117,16 @@
 			children = (
 				0FC6F0881F2AE48600A27E0A /* bg_pkru.png */,
 				0FC6F0861F2AE2CD00A27E0A /* logo_40pkru.png */,
+				0FC6F08A1F2AF36900A27E0A /* ic_exit_to_app_2x.png */,
+				0FC6F08B1F2AF36900A27E0A /* ic_exit_to_app_3x.png */,
+				0FC6F08C1F2AF36900A27E0A /* ic_exit_to_app.png */,
+				0FC6F0901F2AF44300A27E0A /* ic_group_add_2x.png */,
+				0FC6F0911F2AF44300A27E0A /* ic_group_add_3x.png */,
+				0FC6F0921F2AF44300A27E0A /* ic_group_add.png */,
 				0FC6F0581F2AE11300A27E0A /* AppDelegate.swift */,
 				0FC6F05A1F2AE11300A27E0A /* ViewController.swift */,
 				0FC6F05C1F2AE11300A27E0A /* Main.storyboard */,
+				0FC6F0961F2AF57600A27E0A /* SignUpViewController.swift */,
 				0FC6F05F1F2AE11300A27E0A /* Assets.xcassets */,
 				0FC6F0611F2AE11300A27E0A /* LaunchScreen.storyboard */,
 				0FC6F0641F2AE11300A27E0A /* Info.plist */,
@@ -240,9 +261,15 @@
 			files = (
 				0FC6F0891F2AE48600A27E0A /* bg_pkru.png in Resources */,
 				0FC6F0871F2AE2CD00A27E0A /* logo_40pkru.png in Resources */,
+				0FC6F0941F2AF44300A27E0A /* ic_group_add_3x.png in Resources */,
+				0FC6F08E1F2AF36900A27E0A /* ic_exit_to_app_3x.png in Resources */,
+				0FC6F0951F2AF44300A27E0A /* ic_group_add.png in Resources */,
+				0FC6F08D1F2AF36900A27E0A /* ic_exit_to_app_2x.png in Resources */,
+				0FC6F08F1F2AF36900A27E0A /* ic_exit_to_app.png in Resources */,
 				0FC6F0631F2AE11300A27E0A /* LaunchScreen.storyboard in Resources */,
 				0FC6F0601F2AE11300A27E0A /* Assets.xcassets in Resources */,
 				0FC6F05E1F2AE11300A27E0A /* Main.storyboard in Resources */,
+				0FC6F0931F2AF44300A27E0A /* ic_group_add_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC6F0971F2AF57600A27E0A /* SignUpViewController.swift in Sources */,
 				0FC6F05B1F2AE11300A27E0A /* ViewController.swift in Sources */,
 				0FC6F0591F2AE11300A27E0A /* AppDelegate.swift in Sources */,
 			);

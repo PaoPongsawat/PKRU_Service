@@ -28,12 +28,18 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kxf-qu-xwj">
                                 <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <items>
-                                    <navigationItem title="Main Screen" id="aaC-EA-22u"/>
+                                    <navigationItem title="Main Screen" id="aaC-EA-22u">
+                                        <barButtonItem key="rightBarButtonItem" image="ic_group_add_2x.png" id="syP-aD-CzI">
+                                            <connections>
+                                                <segue destination="kwG-lV-orM" kind="show" id="SQv-LS-Ekg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X63-IT-4JG">
                                 <rect key="frame" x="87" y="337" width="240" height="30"/>
-                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="g39-0C-Lhr"/>
                                 </constraints>
@@ -46,7 +52,7 @@
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fEw-sx-Xkr">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="30"/>
-                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -68,11 +74,23 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CtP-Xq-P5m">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="QUh-TO-eRQ"/>
+                                    <barButtonItem image="ic_exit_to_app_2x.png" id="OVK-p8-Rrs">
+                                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NWn-Eo-NxA"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="X63-IT-4JG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MO-qL-lRY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Jg-6r-Qcv" secondAttribute="trailing" id="G9m-OL-D0W"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CtP-Xq-P5m" secondAttribute="bottom" id="PaY-qM-62Z"/>
+                            <constraint firstAttribute="trailing" secondItem="CtP-Xq-P5m" secondAttribute="trailing" id="Q1z-qc-v0M"/>
                             <constraint firstItem="Kxf-qu-xwj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="SVC-yB-WRg"/>
                             <constraint firstItem="8Jg-6r-Qcv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ws9-IC-xiS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rGa-u2-CTE" secondAttribute="trailing" constant="67" id="bk3-Fe-nwh"/>
@@ -85,6 +103,7 @@
                             <constraint firstItem="X63-IT-4JG" firstAttribute="top" secondItem="rGa-u2-CTE" secondAttribute="bottom" constant="25" id="ssY-Ma-pMo"/>
                             <constraint firstItem="rGa-u2-CTE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wxG-UD-gI2"/>
                             <constraint firstItem="rGa-u2-CTE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="y2Q-Ae-0Oj"/>
+                            <constraint firstItem="CtP-Xq-P5m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yN9-62-Hil"/>
                             <constraint firstItem="rGa-u2-CTE" firstAttribute="top" secondItem="Kxf-qu-xwj" secondAttribute="bottom" constant="8" id="zSg-hE-Bif"/>
                         </constraints>
                     </view>
@@ -92,9 +111,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="HBI-hy-B0o">
+            <objects>
+                <viewController id="kwG-lV-orM" customClass="SignUpViewController" customModule="PKRU_Service" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pAO-PB-M2M"/>
+                        <viewControllerLayoutGuide type="bottom" id="o6g-0E-7t5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fO7-Mf-uiq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1eb-vI-FPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="791" y="38"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bg_pkru.png" width="1000" height="543"/>
+        <image name="ic_exit_to_app_2x.png" width="48" height="48"/>
+        <image name="ic_group_add_2x.png" width="48" height="48"/>
         <image name="logo_40pkru.png" width="500" height="591"/>
     </resources>
 </document>
