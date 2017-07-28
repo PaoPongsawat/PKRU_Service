@@ -23,6 +23,9 @@
 		0FC6F0941F2AF44300A27E0A /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0911F2AF44300A27E0A /* ic_group_add_3x.png */; };
 		0FC6F0951F2AF44300A27E0A /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0921F2AF44300A27E0A /* ic_group_add.png */; };
 		0FC6F0971F2AF57600A27E0A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6F0961F2AF57600A27E0A /* SignUpViewController.swift */; };
+		0FC6F09B1F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0981F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png */; };
+		0FC6F09C1F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0991F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png */; };
+		0FC6F09D1F2AF76200A27E0A /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F09A1F2AF76200A27E0A /* ic_keyboard_arrow_left.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		0FC6F0911F2AF44300A27E0A /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_3x.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_3x.png; sourceTree = "<group>"; };
 		0FC6F0921F2AF44300A27E0A /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add.png; sourceTree = "<group>"; };
 		0FC6F0961F2AF57600A27E0A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0FC6F0981F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_2x.png; path = ../../../../Downloads/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_2x.png; sourceTree = "<group>"; };
+		0FC6F0991F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_3x.png; path = ../../../../Downloads/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_3x.png; sourceTree = "<group>"; };
+		0FC6F09A1F2AF76200A27E0A /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left.png; path = ../../../../Downloads/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 				0FC6F0901F2AF44300A27E0A /* ic_group_add_2x.png */,
 				0FC6F0911F2AF44300A27E0A /* ic_group_add_3x.png */,
 				0FC6F0921F2AF44300A27E0A /* ic_group_add.png */,
+				0FC6F0981F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png */,
+				0FC6F0991F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png */,
+				0FC6F09A1F2AF76200A27E0A /* ic_keyboard_arrow_left.png */,
 				0FC6F0581F2AE11300A27E0A /* AppDelegate.swift */,
 				0FC6F05A1F2AE11300A27E0A /* ViewController.swift */,
 				0FC6F05C1F2AE11300A27E0A /* Main.storyboard */,
@@ -262,14 +271,17 @@
 				0FC6F0891F2AE48600A27E0A /* bg_pkru.png in Resources */,
 				0FC6F0871F2AE2CD00A27E0A /* logo_40pkru.png in Resources */,
 				0FC6F0941F2AF44300A27E0A /* ic_group_add_3x.png in Resources */,
+				0FC6F09D1F2AF76200A27E0A /* ic_keyboard_arrow_left.png in Resources */,
 				0FC6F08E1F2AF36900A27E0A /* ic_exit_to_app_3x.png in Resources */,
 				0FC6F0951F2AF44300A27E0A /* ic_group_add.png in Resources */,
 				0FC6F08D1F2AF36900A27E0A /* ic_exit_to_app_2x.png in Resources */,
 				0FC6F08F1F2AF36900A27E0A /* ic_exit_to_app.png in Resources */,
 				0FC6F0631F2AE11300A27E0A /* LaunchScreen.storyboard in Resources */,
 				0FC6F0601F2AE11300A27E0A /* Assets.xcassets in Resources */,
+				0FC6F09B1F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png in Resources */,
 				0FC6F05E1F2AE11300A27E0A /* Main.storyboard in Resources */,
 				0FC6F0931F2AF44300A27E0A /* ic_group_add_2x.png in Resources */,
+				0FC6F09C1F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
