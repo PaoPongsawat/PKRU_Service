@@ -26,6 +26,9 @@
 		0FC6F09B1F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0981F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png */; };
 		0FC6F09C1F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0991F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png */; };
 		0FC6F09D1F2AF76200A27E0A /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F09A1F2AF76200A27E0A /* ic_keyboard_arrow_left.png */; };
+		0FFA2D911F2B1809001E717C /* ic_save_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA2D8E1F2B1809001E717C /* ic_save_2x.png */; };
+		0FFA2D921F2B1809001E717C /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA2D8F1F2B1809001E717C /* ic_save_3x.png */; };
+		0FFA2D931F2B1809001E717C /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA2D901F2B1809001E717C /* ic_save.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		0FC6F0981F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_2x.png; path = ../../../../Downloads/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_2x.png; sourceTree = "<group>"; };
 		0FC6F0991F2AF76200A27E0A /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_3x.png; path = ../../../../Downloads/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_3x.png; sourceTree = "<group>"; };
 		0FC6F09A1F2AF76200A27E0A /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left.png; path = ../../../../Downloads/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left.png; sourceTree = "<group>"; };
+		0FFA2D8E1F2B1809001E717C /* ic_save_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_2x.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save_2x.png; sourceTree = "<group>"; };
+		0FFA2D8F1F2B1809001E717C /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_3x.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save_3x.png; sourceTree = "<group>"; };
+		0FFA2D901F2B1809001E717C /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 		0FC6F0571F2AE11300A27E0A /* PKRU_Service */ = {
 			isa = PBXGroup;
 			children = (
+				0FFA2D8E1F2B1809001E717C /* ic_save_2x.png */,
+				0FFA2D8F1F2B1809001E717C /* ic_save_3x.png */,
+				0FFA2D901F2B1809001E717C /* ic_save.png */,
 				0FC6F0881F2AE48600A27E0A /* bg_pkru.png */,
 				0FC6F0861F2AE2CD00A27E0A /* logo_40pkru.png */,
 				0FC6F08A1F2AF36900A27E0A /* ic_exit_to_app_2x.png */,
@@ -273,11 +282,14 @@
 				0FC6F0941F2AF44300A27E0A /* ic_group_add_3x.png in Resources */,
 				0FC6F09D1F2AF76200A27E0A /* ic_keyboard_arrow_left.png in Resources */,
 				0FC6F08E1F2AF36900A27E0A /* ic_exit_to_app_3x.png in Resources */,
+				0FFA2D921F2B1809001E717C /* ic_save_3x.png in Resources */,
+				0FFA2D911F2B1809001E717C /* ic_save_2x.png in Resources */,
 				0FC6F0951F2AF44300A27E0A /* ic_group_add.png in Resources */,
 				0FC6F08D1F2AF36900A27E0A /* ic_exit_to_app_2x.png in Resources */,
 				0FC6F08F1F2AF36900A27E0A /* ic_exit_to_app.png in Resources */,
 				0FC6F0631F2AE11300A27E0A /* LaunchScreen.storyboard in Resources */,
 				0FC6F0601F2AE11300A27E0A /* Assets.xcassets in Resources */,
+				0FFA2D931F2B1809001E717C /* ic_save.png in Resources */,
 				0FC6F09B1F2AF76200A27E0A /* ic_keyboard_arrow_left_2x.png in Resources */,
 				0FC6F05E1F2AE11300A27E0A /* Main.storyboard in Resources */,
 				0FC6F0931F2AF44300A27E0A /* ic_group_add_2x.png in Resources */,
@@ -555,6 +567,7 @@
 				0FC6F07F1F2AE11300A27E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC6F0801F2AE11300A27E0A /* Build configuration list for PBXNativeTarget "PKRU_ServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +576,7 @@
 				0FC6F0821F2AE11300A27E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC6F0831F2AE11300A27E0A /* Build configuration list for PBXNativeTarget "PKRU_ServiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +585,7 @@
 				0FC6F0851F2AE11300A27E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
