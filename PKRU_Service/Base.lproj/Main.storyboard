@@ -132,7 +132,7 @@
                                     <navigationItem title="Sign Up" id="DVL-Mu-4Zo">
                                         <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="pdB-Ta-Pvb">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="G0n-t6-Q3e"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="BackHome" id="G0n-t6-Q3e"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="BSe-DT-e4J">
@@ -211,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1eb-vI-FPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="796" y="37"/>
+            <point key="canvasLocation" x="1328" y="37"/>
         </scene>
     </scenes>
     <resources>
