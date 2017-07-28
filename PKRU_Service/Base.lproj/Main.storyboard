@@ -136,6 +136,7 @@
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="BSe-DT-e4J">
+                                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="saveButton:" destination="kwG-lV-orM" id="K19-tx-YFU"/>
                                             </connections>
