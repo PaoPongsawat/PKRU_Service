@@ -14,6 +14,8 @@
 		0FC6F0631F2AE11300A27E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0611F2AE11300A27E0A /* LaunchScreen.storyboard */; };
 		0FC6F06E1F2AE11300A27E0A /* PKRU_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6F06D1F2AE11300A27E0A /* PKRU_ServiceTests.swift */; };
 		0FC6F0791F2AE11300A27E0A /* PKRU_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6F0781F2AE11300A27E0A /* PKRU_ServiceUITests.swift */; };
+		0FC6F0871F2AE2CD00A27E0A /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0861F2AE2CD00A27E0A /* logo_40pkru.png */; };
+		0FC6F0891F2AE48600A27E0A /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6F0881F2AE48600A27E0A /* bg_pkru.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0FC6F0741F2AE11300A27E0A /* PKRU_ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKRU_ServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC6F0781F2AE11300A27E0A /* PKRU_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKRU_ServiceUITests.swift; sourceTree = "<group>"; };
 		0FC6F07A1F2AE11300A27E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC6F0861F2AE2CD00A27E0A /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Desktop/logo_40pkru.png; sourceTree = "<group>"; };
+		0FC6F0881F2AE48600A27E0A /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../../Desktop/bg_pkru.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		0FC6F0571F2AE11300A27E0A /* PKRU_Service */ = {
 			isa = PBXGroup;
 			children = (
+				0FC6F0881F2AE48600A27E0A /* bg_pkru.png */,
+				0FC6F0861F2AE2CD00A27E0A /* logo_40pkru.png */,
 				0FC6F0581F2AE11300A27E0A /* AppDelegate.swift */,
 				0FC6F05A1F2AE11300A27E0A /* ViewController.swift */,
 				0FC6F05C1F2AE11300A27E0A /* Main.storyboard */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC6F0891F2AE48600A27E0A /* bg_pkru.png in Resources */,
+				0FC6F0871F2AE2CD00A27E0A /* logo_40pkru.png in Resources */,
 				0FC6F0631F2AE11300A27E0A /* LaunchScreen.storyboard in Resources */,
 				0FC6F0601F2AE11300A27E0A /* Assets.xcassets in Resources */,
 				0FC6F05E1F2AE11300A27E0A /* Main.storyboard in Resources */,

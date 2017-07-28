@@ -1,26 +1,100 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PKRU_Service" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Jg-6r-Qcv">
+                                <rect key="frame" x="20" y="20" width="374" height="716"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kxf-qu-xwj">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Main Screen" id="aaC-EA-22u"/>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X63-IT-4JG">
+                                <rect key="frame" x="87" y="337" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="g39-0C-Lhr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bbx-VR-0Q0">
+                                <rect key="frame" x="87" y="384" width="240" height="30"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fEw-sx-Xkr">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="30"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="thL-1I-CAh"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rGa-u2-CTE">
+                                <rect key="frame" x="87" y="72" width="240" height="240"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_40pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="WNl-th-Kyw">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="cox-xR-vbD"/>
+                                            <constraint firstAttribute="width" constant="240" id="ypn-dn-MXh"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="X63-IT-4JG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MO-qL-lRY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Jg-6r-Qcv" secondAttribute="trailing" id="G9m-OL-D0W"/>
+                            <constraint firstItem="Kxf-qu-xwj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="SVC-yB-WRg"/>
+                            <constraint firstItem="8Jg-6r-Qcv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ws9-IC-xiS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rGa-u2-CTE" secondAttribute="trailing" constant="67" id="bk3-Fe-nwh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Jg-6r-Qcv" secondAttribute="bottom" id="h38-0O-Lbs"/>
+                            <constraint firstItem="bbx-VR-0Q0" firstAttribute="top" secondItem="X63-IT-4JG" secondAttribute="bottom" constant="17" id="hwb-mU-MYn"/>
+                            <constraint firstItem="Kxf-qu-xwj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="i8V-kT-w4X"/>
+                            <constraint firstItem="bbx-VR-0Q0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ne4-gc-CRF"/>
+                            <constraint firstAttribute="trailing" secondItem="Kxf-qu-xwj" secondAttribute="trailing" id="nep-Uq-aCk"/>
+                            <constraint firstItem="8Jg-6r-Qcv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oL2-bF-c38"/>
+                            <constraint firstItem="X63-IT-4JG" firstAttribute="top" secondItem="rGa-u2-CTE" secondAttribute="bottom" constant="25" id="ssY-Ma-pMo"/>
+                            <constraint firstItem="rGa-u2-CTE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wxG-UD-gI2"/>
+                            <constraint firstItem="rGa-u2-CTE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="y2Q-Ae-0Oj"/>
+                            <constraint firstItem="rGa-u2-CTE" firstAttribute="top" secondItem="Kxf-qu-xwj" secondAttribute="bottom" constant="8" id="zSg-hE-Bif"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg_pkru.png" width="1000" height="543"/>
+        <image name="logo_40pkru.png" width="500" height="591"/>
+    </resources>
 </document>
